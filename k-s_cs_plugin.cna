@@ -1,0 +1,11 @@
+# siota_rdp_complete.cna
+# Cobalt Strike CNA script - 右键菜单 Siota -> RDP相关 -> 各类RDP管理
+# 作者：Siota 改
+
+popup beacon_bottom {
+  separator();
+  menu "K-S"{
+    include(script_resource("modules/enable_rdp.cna"));
+  }
+  separator();
+}
